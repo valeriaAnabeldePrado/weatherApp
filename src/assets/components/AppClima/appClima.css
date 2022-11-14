@@ -1,0 +1,27 @@
+.backgrondCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(168,156,156);
+    background: linear-gradient(13deg, rgba(168,156,156,1) 11%, rgba(205,183,219,1) 41%, rgba(222,236,250,1) 86%);
+}
+.espacio{
+    height: 60vh;
+}
+.containerClima{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container2{
+    margin-bottom:5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+

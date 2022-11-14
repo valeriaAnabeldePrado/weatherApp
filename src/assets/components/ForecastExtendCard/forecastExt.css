@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.containerForest{
+   margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.forestData{
+    margin: 1rem;
+    min-width: 20vw;
+    padding: 1rem ;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    display:flex;
+    flex-direction: column;
+}
+.containerClosed{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: .4rem;
+    border-bottom: 1.8px solid rgb(255, 255, 255);
+}
+.btnForest{
+   background-color: #A49DB8;
+   border-radius: 5px;
+   padding: .2rem .4rem .2rem .4rem ;
+   outline: none;
+   border-style: none;
+   color: #fff;
+   font-weight: 600;
+   margin: .5rem;
+}
+
+@media (max-width: 610px) {
+    .forestData{
+        min-width: 45vw;
+        margin-bottom: 1rem 0 1rem 0;
+        
+    }
+  }

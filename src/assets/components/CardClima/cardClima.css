@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.containerCard{
+    margin: 2rem;
+    min-width: 30vw;
+    padding: 1rem .3rem 1rem .3rem;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    display:flex;
+    flex-direction: column;
+}
+.pText{
+    text-transform: uppercase;
+}
+.iconW{
+    height: 2.5rem;
+}
+.containerCity{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: space-between;
+    border-bottom: 1.8px solid rgb(255, 255, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.containerDesc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerPadreData{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.containerData{
+    margin: .5rem;
+}
+
+
+@media (max-width: 408px) {
+    .containerCard{
+        margin: 1rem;
+    }
+    .containerCity{
+        height: 25vh;
+    }
+
+}
+
+
+
+   
